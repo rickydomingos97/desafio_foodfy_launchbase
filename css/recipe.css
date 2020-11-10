@@ -14,7 +14,7 @@
 .modal {
     background-color: var(--color-background-white);
     width: 660px;
-    height: 413px;
+    height: 473px;
     margin: 15vh auto;
     position: fixed;
     left: 25%;
@@ -25,7 +25,7 @@
     position: absolute;
     color: var(--color-secondary-text);
     position: fixed;
-    margin: 370px auto;
+    margin: 430px auto;
     text-align: center;
     cursor: pointer;
     transition: .3s;
@@ -45,8 +45,12 @@
 }
 
 .modal img {
-    width: 40vw;
-    margin: 20px auto;
+    max-width: 900px;
+    max-height: 280px;
+    /* width: auto;
+    height: auto; */
+    object-fit: cover;
+    margin: 3.9% 2.1%;
     border-radius: 15px;
     transition: all linear .3s
 }
