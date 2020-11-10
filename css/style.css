@@ -144,7 +144,7 @@ header {
     height: 140px;
 }
 
-.card-content p {
+.card-content h4 {
     font-size: 18px;
     font-weight: 100;
     margin-top: 6.8%;

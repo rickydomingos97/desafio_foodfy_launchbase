@@ -45,7 +45,7 @@
 }
 
 .modal img {
-    width: 32vw;
+    width: 40vw;
     margin: 20px auto;
     border-radius: 15px;
     transition: all linear .3s
@@ -62,6 +62,13 @@
     margin-top: .8%;
 }
 
+.modal-content h4 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+}
+
 .small_image:hover {
     filter: grayscale(0%);
     transition: .2s;
@@ -70,8 +77,4 @@
 
 }
 
-.card_content {
-    padding: 50px;
-    border: 3px solid yellow;
-}
 
