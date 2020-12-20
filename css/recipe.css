@@ -19,22 +19,29 @@
     background-color: var(--color-background-white);
     width: 660px;
     height: 473px;
-    margin: 15vh auto;
-    position: fixed;
-    left: 25%;
+    /* margin: 15vh auto; */
+    position: relative;
+    /* left: 25%; */
     border-radius: 15px;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 /* O position: relative; foi colocado no "pai" da classe filha para poder ser usado o position; absolute; nela*/
 .modal .close-modal{
     position: absolute;
     color: var(--color-secondary-text);
-    position: fixed;
     margin: 430px auto;
+    margin-bottom: 1%;
     text-align: center;
     cursor: pointer;
     transition: .3s;
     font-weight: 100;
-    left: 46.6%;    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal .close-modal:hover {
@@ -64,6 +71,7 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .modal-content p {
